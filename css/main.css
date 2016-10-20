@@ -8,12 +8,28 @@ html {
   box-sizing: inherit;
 }
 
-
 img {
   width: 100%;
   max-width: inherit;
+  display: block;
+  text-align: center;
+  margin: 1.5rem;
+  padding: inherit;
 }
 
 p {
   line-height: 1.5;
+  text-align: left;
+}
+
+a {
+  display: inline-block;
+  margin: 0.4em .75em .5em;
+  max-width: 25em;
+  padding: 1em;
+  background-color: #fff;
+  border: 3px solid #333;
+  border-radius: 10px;
+  text-align: left;
+  text-decoration: none;
 }
