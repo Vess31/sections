@@ -2,6 +2,7 @@ html {
   font-family: "Lato", sans-serif;
   max-width: 25em;
   margin: 1.5rem;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -22,7 +23,7 @@ p {
   text-align: left;
 }
 
-a {
+[class=".btn"] {
   display: inline-block;
   margin: 0.4em .75em .5em;
   max-width: 25em;
