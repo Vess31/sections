@@ -1,8 +1,19 @@
 html {
   font-family: "Lato", sans-serif;
+  max-width: 25em;
+  margin: 1.5rem;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
 img {
-  width: 60%;
+  width: 100%;
   max-width: inherit;
+}
+
+p {
+  line-height: 1.5;
 }
